@@ -1,0 +1,6 @@
+[
+  {"id":"fuel","name":"Fuel","basePriceCents":100},
+  {"id":"supplies","name":"Supplies","basePriceCents":200},
+  {"id":"metals","name":"Metals","basePriceCents":50},
+  {"id":"food","name":"Food","basePriceCents":75}
+]

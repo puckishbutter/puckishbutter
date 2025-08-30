@@ -1,0 +1,10 @@
+[
+  {
+    "id": "core-station",
+    "name": "Core Station",
+    "stocks": {"fuel":1000,"supplies":500,"metals":100,"food":200},
+    "prices": {"fuel":100,"supplies":200,"metals":50,"food":75},
+    "tariffRate": 0.3,
+    "stability": 7
+  }
+]
