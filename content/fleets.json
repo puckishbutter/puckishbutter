@@ -1,4 +1,4 @@
 [
-  {"id":"player","name":"Player Fleet","position":{"x":0,"y":0}},
-  {"id":"patrol1","name":"Patrol Fleet","position":{"x":50,"y":50}}
+  {"id":"player","name":"Player Fleet","systemId":"core","pos":{"x":0,"y":0},"transponderOn":false,"suspicion":0,"cargo":{"fuel":100,"supplies":50,"food":0},"credits":10000},
+  {"id":"patrol1","name":"Patrol Fleet","systemId":"core","pos":{"x":50,"y":0},"transponderOn":true,"suspicion":0,"cargo":{}}
 ]

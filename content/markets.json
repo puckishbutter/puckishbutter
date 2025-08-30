@@ -6,5 +6,13 @@
     "prices": {"fuel":100,"supplies":200,"metals":50,"food":75},
     "tariffRate": 0.3,
     "stability": 7
+  },
+  {
+    "id": "outpost",
+    "name": "Outpost",
+    "stocks": {"fuel":200,"supplies":100,"metals":20,"food":50},
+    "prices": {"fuel":110,"supplies":210,"metals":55,"food":80},
+    "tariffRate": 0.3,
+    "stability": 5
   }
 ]

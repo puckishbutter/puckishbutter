@@ -1,13 +1,21 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { start, stop, subscribeSnapshot } from '../engine';
+import { MapScreen } from './map/MapScreen';
+import { Toasts } from './Toasts';
+import { IntelRail } from './IntelRail';
+import { CourseWidget } from './hud/CourseWidget';
+import { StatusCluster } from './hud/StatusCluster';
 
 function Hud() {
-  return <div className="hud">HUD Placeholder</div>;
-}
-
-function MapView() {
-  return <div className="map">Map Placeholder</div>;
+  return (
+    <div className="hud">
+      <StatusCluster />
+      <CourseWidget />
+      <IntelRail />
+      <Toasts />
+    </div>
+  );
 }
 
 export function App() {
@@ -26,7 +34,7 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MapView />} />
+        <Route path="/" element={<MapScreen />} />
       </Routes>
       <Hud />
     </BrowserRouter>

@@ -2,6 +2,5 @@
   {"id":"station","type":"station","position":{"x":0,"y":0}},
   {"id":"derelict1","type":"derelict","position":{"x":10,"y":-5}},
   {"id":"derelict2","type":"derelict","position":{"x":-15,"y":20}},
-  {"id":"jump1","type":"jump","position":{"x":100,"y":0}},
-  {"id":"jump2","type":"jump","position":{"x":-100,"y":0}}
+  {"id":"outer-jump","type":"jump","position":{"x":100,"y":0}}
 ]
